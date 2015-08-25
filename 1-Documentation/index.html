@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Documentation</title>
+	<link rel="stylesheet" href="js/google-code-prettify/prettify.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-theme1.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+    <script type="text/javascript" src="js/google-code-prettify/run_prettify.js"></script>
+</head>
+<body>
+	<div id="boxContainer">
+	
+	<section>
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-12">
+	                <div class="wrapp bg-primary">
+	                     <h1 class="text-center"><strong>&quot;OmahPsd Template&quot; </strong></h1>
+	                     <p class="text-center"><strong>DOCUMENTATION BY &quot;OMAHPSD&quot; V1.0</strong></p>
+	                    
+	                </div>
+	            </div>
+	           
+	            <div class="col-md-12">
+	                <div class="wrapp">
+	                     <div class="row">
+	                         <div class="col-md-6 col-md-offset-3">
+	                             <h2 class="text-center">Moderno</h2>
+	                            <div class="alert alert-warning">
+	                            <p>Created: 22/12/2014</p>
+                                <p>By: omahpsd.com</p>
+                                <p> Email: omahpsd@gmail.com</p>
+                                </div>
+	                         </div>
+	                          <div class="col-md-6 col-md-offset-3">
+	                            <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://omahpsd.com/contact/">here</a>. Thanks so much!</p>
+	                         </div>
+	                     </div><!--end sub row-->
+	                </div>
+	            </div>
+	            <div class="col-md-12">
+	                <div class="wrapp" id="#top">
+	                     <h2>Table of Contents</h2>
+	                     <ul>
+	                         <li><p><a href="#get1">Getting Started</a></p></li>
+	                         <li><p><a href="#get2">HTML/1200 Grid Structure</a> - Basic HTML information, using the 1200.gs Grid System</p></li>
+	                         <li><p><a href="#get3">Bootstrap LESS</a> - Style Using Bootstrap LESS </p></li>
+	                         <li><p><a href="#get4">JavaScript/jQuery Plugins</a> - Site plugin information</p></li>
+							 <li><p><a href="#get5">Ajax contact form and php</a></p></li>
+	                         <li><p><a href="#get6">Sources and Credits</a></p></li>
+	                     </ul>
+	                </div>
+	            </div><!--end col-->
+	            
+	            <div class="col-md-12">
+	                <div class="wrapp" id="#top">
+	                     <h3 id="get1">A) Getting Started - <a href="#top">top</a></h3>
+                        <p>Since this is an HTML/CSS template, you can actually run it off your computer with little setup on the server. When you are ready to put the site on your server, upload all the files in the theme folder to your server.</p>
+
+	                </div>
+	            </div><!--end col-->
+	             <div class="col-md-12">
+	                <div class="wrapp" id="#top">
+	                     <h3 id='get2'>B) HTML/1170 Grid Structure - <a href="#top">top</a></h3>
+                        <p>This theme is a fixed layout with up to 12 columns. All of the information within the main content area is nested within a div with an class of "wrapper".The general template structure is the same throughout the template as it uses the 12 column 1200.gs Bootstrap framework.</p>
+                        <h4>1200.gs Bootstrap framework</h4>
+                        <p>The general concept behind the 12 column framework is that all the columns (labeled span'x') need to add up to 12 when using the 12 column version of their framework.</p>
+                        <p>The Bootstrap site has a nice demo and you can also see it on the columns-all.html file included with this theme. The best way I would suggest to become familiar with this framework is to simply edit what I have already set up.</p>
+                        <p><strong>Bootstrap has a <a href="http://getbootstrap.com/css/#grid">great overview of the Grid System framework </a>you may want to check out.</strong></p>
+	                </div>
+	            </div><!--end col-->
+	            
+	            <div class="col-md-12">
+	                <div class="wrapp" id="#top">
+	                     <h3 id="get3">C) Style Using Bootstrap Less - <a href="#top">top</a></h3>
+                        <p>At first glance, the CSS may look confusing, because CSS is create using LESS let me explain each below:</p>
+                        
+                        <ul>
+                            <li><p>style.css - Our's custom css and custom Bootstrap CSS Framework, do not edit this file.</p></li>
+                            <li><p>bootstrap.css - The Bootstrap Grid and CSS Framework, do not edit this file.</p></li>
+                        </ul>
+						<p>if you want to custom style you can custom file style.less on folder with name less, if you confiuse how to custem the LESS file you can see the how to use LESS on <a href="http://lesscss.org">http://lesscss.org</a></p>
+                        <br>
+                        <h4>Handy CSS Classes:</h4>
+                        <p>.clearfix - A quick way to <a href="https://www.google.com/search?q=css+clearfix">clear floated HTML elements</a></p>
+                        <p>.img-thumbnail - Add a soft border and padding image edge</p>
+                        <p>.img-circle - Add a full rounded image edge with CSS3 rounded borders.</p>
+                        <p>.img-rounded - Add a soft rounded image edge with CSS3 rounded borders.</p>
+                        <p>.pull-left - Float item to left</p>
+                        <p>.pull-right - Float item to right</p>
+                        <p>.text-center - Center text</p>
+                        <p>.text-left - Left text</p>
+                        <p>.text-right - Right text</p>
+                        <p>etc you can see all on <a href="http://getbootstrap.com/">bootstrap documentation</a></p>
+                        <br>
+						
+                        
+                        <h4>Change Color Theme</h4>
+                        <p>If you want to change the color theme, we just custom theme's color on 'variable.less' in less folder, just replace value on variable @colPrimwith your own color code and you can change the other variable to</p>
+	                
+						
+	            </div><!--end col-->
+	            <div class="col-md-12">
+	               
+	           <div class="wrapp">
+	                         <h3 id="get4">D) JavaScript/jQuery Plugins - <a href="#top">top</a></h3>
+<pre class="prettyprint">
+&lt;script src=&quot;js/jquery-1.10.2.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/bootstrap.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;components/jquery.inview/jquery.inview.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;components/jqBootstrapValidation-1.3.7/jqBootstrapValidation-1.3.7.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/app.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://maps.googleapis.com/maps/api/js?v=3.exp&quot;&gt;&lt;/script&gt;
+</pre>
+                            
+                </div>
+				
+	             <div class="wrapp">
+	               <h4>Bootstrap jquery plugin</h4>
+	                 <p>See all bootstrap jquery plugin setup on   <a href="http://getbootstrap.com/javascript/">bootstrap documentation</a>     
+	            </div>   
+	                    
+	             
+	             
+	
+	             <div class="wrapp">
+				 <h4>Change Font Family</h4>
+<p>you can change tha font family on the css file you can fan on the folder css/style.css just open the style.css and find the css code like the following css code:</p>
+<pre class="prettyprint">
+ @font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat/Montserrat-Regular.ttf')  format('truetype');/* Legacy iOS */
+}
+@font-face {
+	font-family: 'Lora';
+	src: url('Lora/Lora-Regular.ttf')  format('truetype');/* Legacy iOS */
+}     
+</pre>
+and replace the font file on the css folder css/VarelaRound-Regular.ttf, replace with the your own font, and then change the name of font-family and the css file
+<pre class="prettyprint">
+ @font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat/Montserrat-Regular.ttf')  format('truetype');/* Legacy iOS */
+}
+@font-face {
+	font-family: 'Lora';
+	src: url('Lora/Lora-Regular.ttf')  format('truetype');/* Legacy iOS */
+}
+}	             
+</pre>
+<p>for the background image on the header you can also find and change on the style.less file, just find the following css code:</p>
+<pre class="prettyprint">
+/* =============================== header ===================================== */
+.header {
+background: url(../img/bghead.jpg) no-repeat top center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+position:relative;
+}       
+</pre>
+<p>replace the bghead.jpg on the folder img/bghead.jpg and done, on this theme the image size we use is 1541px x 652px</p>	   
+	             </div>
+	             
+ 
+                 <div class="wrapp">
+                     <h4>jquery Custom Toggle navigation</h4>
+                     <p>The Navigation we made its on side so we create the button toogle for show and hide, you can see the jquery code for make it happen on script.js</p>
+                     <p>see like the following code</p>
+<pre class="prettyprint">
+$("#menu-close").click(function(e) {
+	e.preventDefault();
+	$("#sidebar-wrapper").toggleClass("active");
+});
+$("#menu-toggle").click(function(e) {
+	e.preventDefault();
+	$("#sidebar-wrapper").toggleClass("active");
+});
+</pre>                   
+               
+                
+                     <p>And for make scroll page when click the navigation menu, you can see te setup code like the following code: </p>
+                    
+<pre class="prettyprint">
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+	|| location.hostname == this.hostname) {
+
+	var target = $(this.hash);
+	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	if (target.length) {
+	  $('html,body').animate({
+		scrollTop: target.offset().top
+	  }, 1000);
+	  return false;
+	}
+  }
+});
+</pre>              
+                
+                 <h4>Header height</h4>      
+                 <p>for support the btnAbout in order to follow the window when the window on resize or on small screen, we setup the header height in order to follow the window height, because the btnAbout is on the header container, you can see the setup like the following code: </p>
+<pre class="prettyprint">
+(function(){
+boxHeight();
+})();
+$(window).resize(function(){
+boxHeight();
+});
+function boxHeight(){
+var wHeight = $(window).height();
+$('.header').css('min-height', wHeight); 
+}
+</pre>
+
+				<h4>Google Map Pin marker</h4>
+				<p>for the map on the contact section d powered by google maps v3, for use the google maps we must include the google map apis like the following code:</p>
+<pre class="prettyprint">
+&lt;script src=&quot;https://maps.googleapis.com/maps/api/js?v=3.exp&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+      function initialize() {
+  var myLatlng = new google.maps.LatLng(-7.790732, 110.387209);
+  var mapOptions = {
+    zoom: 4,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+var image = 'img/We-Are-Here.png';
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      icon: image
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+    &lt;/script&gt;
+</pre>
+<p>for change map marker you can change image path 'img/We-Are-Here.png' lie the above code</p>
+<p>for change the map coordinate change this code 'new google.maps.LatLng(-7.790732, 110.387209);'</p>
+                 </div>
+	             <div class="wrapp">
+	<h3 id="get5">ajax contact form and php mailer</h3>
+<p>and then we create the contact form is can send the message to the our email, using Ajax and PHP, so firts you will needed a html sructure for contact form, and give your <code class="prettyprint">&lt;form&gt;</code> element the ID <strong>myForm</strong>, set the <strong>method</strong> attribute to <strong>post</strong>, and the <strong>action</strong> attribute to <strong>mailer.php</strong>. like the following code:</p>
+<pre class="prettyprint">
+&lt;div class=&quot;build my-form&quot;&gt;
+							&lt;div id=&quot;form-messages&quot;&gt;&lt;/div&gt;
+							&lt;form class=&quot;form-horizontal&quot; role=&quot;form&quot; id=&quot;ajax-contact&quot; method=&quot;post&quot; action=&quot;mailer.php&quot;&gt;
+								&lt;div class=&quot;row&quot;&gt;
+								&lt;div class=&quot;col-sm-6 field&quot;&gt;
+									&lt;div class=&quot;form-group&quot;&gt;
+										&lt;div class=&quot;control&quot;&gt;
+										  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; name=&quot;name&quot; placeholder=&quot;Your Name&quot; minlength=&quot;2&quot; required&gt;
+										  &lt;div class=&quot;help-block&quot;&gt;&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class=&quot;col-sm-6 field&quot;&gt;
+									&lt;div class=&quot;form-group&quot;&gt;
+										&lt;div class=&quot;control&quot;&gt;
+										  &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Your Email&quot; required&gt;
+										  &lt;div class=&quot;help-block&quot;&gt;&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+							   &lt;/div&gt;
+							   &lt;/div&gt;
+							  &lt;div class=&quot;form-group&quot;&gt;
+								&lt;div class=&quot;col-sm-12 field&quot;&gt;
+								&lt;div class=&quot;control&quot;&gt;
+								  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;subject&quot; name=&quot;subject&quot; placeholder=&quot;Subject&quot; required&gt;
+								  &lt;div class=&quot;help-block&quot;&gt;&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;/div&gt;
+							  &lt;/div&gt;
+							  &lt;div class=&quot;form-group&quot;&gt;
+								&lt;div class=&quot;col-sm-12 field&quot;&gt;
+								&lt;div class=&quot;control&quot;&gt;
+								  &lt;textarea class=&quot;form-control&quot; rows=&quot;7&quot; id=&quot;message&quot; name=&quot;message&quot; placeholder=&quot;Textarea&quot; required&gt;&lt;/textarea&gt;
+								  
+								&lt;/div&gt;
+								&lt;/div&gt;
+							  &lt;/div&gt;
+							  &lt;div class=&quot;form-group&quot;&gt;
+								&lt;div class=&quot;col-sm-12&quot;&gt;
+								  &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary btn-block&quot;&gt;SEND&lt;/button&gt;
+								&lt;/div&gt;
+							  &lt;/div&gt;
+							&lt;/form&gt;
+						&lt;/div&gt;&lt;!-- end build --&gt;
+</pre>
+<p>Here you've set up a simple form that has fields to collect the user's name, email address, and message. Notice that each of the form fields has a <strong>required</strong> attribute. In browsers that support HTML5 form validation, this will prevent the form from being submitted until all the fields have been completed.</p>
+<p>Next you need to create a <strong>&lt;div&gt;</strong> element that will be used to display success and error messages to the user. Create this element above the <strong>&lt;form&gt;</strong> in your HTML markup and give it the ID <strong>form-messages</strong>.</p>
+<pre class="prettyprint">
+&lt;div id=&quot;form-messages&quot;&gt;&lt;/div&gt;
+</pre>
+
+<p>And then for the sumbitting data form and handle success and error, we create all form the AJAX, we create the AJAX code in app.js file, you can see the following code:</p>
+<pre class="prettyprint">
+	// Get the form.
+	var form = $('#ajax-contact');
+
+	// Get the messages div.
+	var formMessages = $('#form-messages');
+
+	// Set up an event listener for the contact form.
+	$(form).submit(function(e) {
+		// Stop the browser from submitting the form.
+		e.preventDefault();
+
+		// Serialize the form data.
+		var formData = $(form).serialize();
+
+		// Submit the form using AJAX.
+		$.ajax({
+			type: 'POST',
+			url: $(form).attr('action'),
+			data: formData
+		})
+		.done(function(response) {
+			// Make sure that the formMessages div has the 'success' class.
+			$(formMessages).removeClass('error');
+			$(formMessages).addClass('success');
+
+			// Set the message text.
+			$(formMessages).text(response);
+
+			// Clear the form.
+			$('#name').val('');
+			$('#email').val('');
+			$('#subject').val('');
+			$('#message').val('');
+		})
+		.fail(function(data) {
+			// Make sure that the formMessages div has the 'error' class.
+			$(formMessages).removeClass('success');
+			$(formMessages).addClass('error');
+
+			// Set the message text.
+			if (data.responseText !== '') {
+				$(formMessages).text(data.responseText);
+			} else {
+				$(formMessages).text('Oops! An error occured and your message could not be sent.');
+			}
+		});
+
+	});
+
+</pre>
+<p>Now we need to write the php mailer script that will process the from data, this script is responsible for checking that the form data is valid and then sending out the email.</p>
+<p>create a new file called mailer.php and copy into it the following code </p>
+<pre class="prettyprint">
+&lt;?php
+    // My modifications to mailer script from:
+    // http://blog.teamtreehouse.com/create-ajax-contact-form
+    // Added input sanitizing to prevent injection
+
+    // Only process POST reqeusts.
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Get the form fields and remove whitespace.
+        $name = strip_tags(trim($_POST["inputName"]));
+		$name = str_replace(array("\r","\n"),array(" "," "),$name);
+		$subjects = strip_tags(trim($_POST["inputName"]));
+		$subjects = str_replace(array("\r","\n"),array(" "," "),$subjects);
+        $email = filter_var(trim($_POST["inputEmail"]), FILTER_SANITIZE_EMAIL);
+        $message = trim($_POST["message"]);
+
+        // Check that data was sent to the mailer.
+        if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            // Set a 400 (bad request) response code and exit.
+            http_response_code(400);
+            echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+            exit;
+        }
+
+        // Set the recipient email address.
+        // FIXME: Update this to your desired email address.
+        $recipient = "youraccount@gmail.com";
+
+        // Set the email subject.
+        $subject = "New contact from $name";
+
+        // Build the email content.
+        $email_content = "Name: $name\n";
+        $email_content .= "Email: $email\n\n";
+        $email_content .= "Subject: $subjects\n\n";
+        $email_content .= "Message:\n$message\n";
+
+        // Build the email headers.
+        $email_headers = "From: $name &lt;$email&gt;";
+
+        // Send the email.
+        if (mail($recipient, $subject, $subjects, $email_content, $email_headers)) {
+            // Set a 200 (okay) response code.
+            //http_response_code(200);
+            echo "Thank You! Your message has been sent.";
+        } else {
+            // Set a 500 (internal server error) response code.
+            //http_response_code(500);
+            echo "Oops! Something went wrong and we couldn't send your message.";
+        }
+
+    } else {
+        // Not a POST request, set a 403 (forbidden) response code.
+        //http_response_code(403);
+        echo "There was a problem with your submission, please try again.";
+    }
+
+?&gt;
+
+</pre>
+ </div>
+	            </div><!--end col-->
+              
+                <div class="col-md-12">
+                    <div class="wrapp">
+                        <h3 id="get6">F) Sources, Credits and Font - <a href="#top">top</a></h3>
+                        <p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li><strong>Icon Font/fontawesome</strong>-http://fontawesome.io/</li>
+			<li><strong>Bootstrap CSS Framework</strong> - http://getbootstrap.com/</li>
+			<li><strong>jQuery jqBootstrapValidation </strong> - http://reactiveraven.github.com/jqBootstrapValidation</li>
+			<li><strong>jQuery inview </strong> - http://srobbin.com/jquery-plugins/backstretch/</li>
+			<li><strong>jQuery</strong> - www.jquery.com</li>
+            <li><strong>IE9.js</strong> - Project Hosting on Google Code: http://html5shiv.googlecode.com/svn/trunk/html5.js</li>
+			<li><strong>'Montserrat-Regular.ttf'</strong>-google fonts</li>
+			<li><strong>'Lora-Regular.ttf''</strong>-google fonts</li>
+		</ul>
+                    </div>
+                </div>
+	        </div><!--end row-->
+	    </div><!--end container-->
+	</section><!--end section-->
+	
+
+    </div><!--end boxContainer-->
+</body>
+
+</html>
